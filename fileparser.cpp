@@ -17,7 +17,7 @@ myVec::vector<Shape*> ParseFile(int size)
 {
     ifstream inFile;
 
-    inFile.open("C:/Users/Trevor Rizzi/Desktop/CS1C-2D/shapes.txt"); // change path for diff computers !!!
+    inFile.open("C:/Users/Zac/Desktop/CS1C-2D/shapes.txt"); // change path for diff computers !!!
 
     qDebug() << inFile.is_open();
 
