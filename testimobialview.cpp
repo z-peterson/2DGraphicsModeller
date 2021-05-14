@@ -11,7 +11,7 @@ testimobialView::testimobialView(QWidget *parent) :
     string text;
     ifstream inFile;
 
-    inFile.open("C:/Users/Trevor Rizzi/Desktop/CS1C-2D/testimony.txt");
+    inFile.open("C:/Users/Zac/Desktop/CS1C-2D/testimony.txt");
 
     while(inFile)
     {

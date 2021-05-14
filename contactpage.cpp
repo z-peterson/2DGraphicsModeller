@@ -12,10 +12,10 @@ contactPage::contactPage(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap pix(":/image/src/img/BackLeftBotnet.jpg");
+    QPixmap pix(":/image/src/img/logo.jpg");
     ui->label->setPixmap(pix);
 
-    ui->linkLabel->setText("<a href=\"https://github.com/rizzi-trevor/CS1C-2DGraphicsModeler\">Click Here!</a>");
+    ui->linkLabel->setText("<a href=\"https://github.com/z-peterson/2DGraphicsModeller\">Click Here!</a>");
     ui->linkLabel->setTextFormat(Qt::RichText);
     ui->linkLabel->setTextInteractionFlags(Qt::TextBrowserInteraction);
     ui->linkLabel->setOpenExternalLinks(true);
@@ -38,7 +38,7 @@ void contactPage::onConfrimClick()
 
     ofstream outFile;
 
-    outFile.open("C:/Users/Trevor Rizzi/Desktop/CS1C-2D/testimony.txt", ios::app);
+    outFile.open("C:/Users/Zac/Desktop/CS1C-2D/testimony.txt", ios::app);
 
     outFile << "User Entry: \n";
     outFile << text.toStdString() << "\n\n";
