@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/text">
+        <file>src/txt/shapes.txt</file>
+        <file>src/txt/testimony.txt</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>src/img/BackLeftBotnet.jpg</file>
+        <file>src/img/BackLeftBotnet2.jpg</file>
+    </qresource>
+</RCC>

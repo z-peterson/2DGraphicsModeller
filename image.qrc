@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>src/img/BackLeftBotnet.jpg</file>
+        <file>src/img/BackLeftBotnet2.jpg</file>
+    </qresource>
+</RCC>
